@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She Codes</title>
+</head>
+<style>
+    h1 {
+        font-size: 1000;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        text-decoration: underline;
+    }
+    h2 {
+        font-size: 800;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 1000;
+    }
+    p {
+        font-size: large;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    button {
+         padding: 15px 20px;
+         color: #885df1;
+         display: block;
+         text-decoration: none;
+         font-size: 16px;
+         border-radius: 40px;
+         margin: 30px auto;
+         border: 1px solid #885df1;
+         background: transparent;
+         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+         transition: all 150ms ease-in-out;
+        }
+
+        button:hover {
+         color: #fff;
+         background-color: #7c52ef;
+         cursor: pointer;
+       }
+</style>
+
+<body>
+    <h1>
+        Let's learn about planes
+    </h1>
+    <h2>
+        Overview
+    </h2>
+    <p>
+        An airplane, also known simply as a plane, is a fixed-wing aircraft that is propelled forward by thrust from jet engines or propellers. Planes are essential for modern transportation, allowing people and goods to travel long distances in a relatively short time. They are used in a variety of fields, from commercial airlines to military operations, and have evolved significantly since the Wright brothers' first powered flight in 1903.
+    </p>
+    <hr />
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTZynGVo_H85d76vuIJA5WWanp-q48hK_1Zg&s" width ="500px" alt="plane image"/>
+    <hr />
+    <h2>
+        Description
+    </h2>
+    <p>
+        Planes operate based on principles of aerodynamics and physics. The main parts of an airplane include:
+        <ol>
+            <li>Fuselage: The main body of the plane, which holds the crew, passengers, and cargo.</li>
+            <li>Wings: Generate lift when air flows over them, allowing the plane to stay airborne.</li>
+            <li>Engines: Provide thrust, propelling the plane forward and allowing it to overcome drag.</li>
+            <li>Empennage: The tail section, which includes the stabilizers and rudder, helps stabilize and control the plane.</li>
+            <li>Landing Gear: Allows the plane to take off and land on runways.</li>
+        </ol>
+        Modern planes rely on complex engineering and advanced materials to balance speed, safety, fuel efficiency, and environmental concerns. They are equipped with various navigation systems, autopilot, and radar to ensure safe travel. Different types of planes are used for specific purposes, such as commercial airlines, cargo transport, private planes, military aircraft, and helicopters.  
+    </p>
+    <hr />
+    <h2>
+        Conclusion
+    </h2>
+    <p>
+        Planes are one of the most transformative inventions of the modern era, enabling global travel, trade, and connectivity. They continue to evolve, with recent advancements focusing on fuel efficiency, reduced emissions, and even electric or hybrid models for sustainable travel.
+    </p>
+    <button onclick= "redirect()">Know More</button>
+    <script>
+        function redirect() {
+        window.location.href = "https://www.britannica.com/technology/airplane"; 
+        }
+        let name = prompt("What is your name?");
+        let answer = prompt("Do you like planes?");
+        if(answer == Yes){
+            alert(name+"Hope you like the content.")
+        }
+        if(answer == No){
+            alert(name+"Hope we can do more.")
+        }
+        alert(name+"Thanks!, for visiting our page");
+    </script>
+</body>
+</html>
